@@ -1,0 +1,5 @@
+name: julia-binder
+channels:
+  - defaults
+dependencies:
+  - anaconda
