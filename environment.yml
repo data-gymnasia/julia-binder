@@ -2,4 +2,8 @@ name: julia-binder
 channels:
   - defaults
 dependencies:
-  - anaconda
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - sympy
