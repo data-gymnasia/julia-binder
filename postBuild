@@ -1,0 +1,5 @@
+wget -qO- \
+"https://github.com/yihui/tinytex/raw/master/tools/install-unx.sh" |
+sh
+sudo apt-get update
+sudo apt-get install dvipng
