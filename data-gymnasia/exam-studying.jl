@@ -29,4 +29,4 @@ function sampleXY(r,σ)
 end
 
 # Sample n observations
-sample = [sampleXY(r,σy) for i=1:n]
+observations = [sampleXY(r,σy) for i=1:n]
