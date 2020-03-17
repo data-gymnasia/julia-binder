@@ -110,7 +110,7 @@ function em_algorithm(x)
     # Initialize θ parameter [q, σ²]
     θ = [0.5, 1]
 
-    num_iterations = 500
+    num_iterations = 100
 
     for i = 1:num_iterations
         a, b, c = estimate_a_b_c(x, θ)
